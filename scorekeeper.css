@@ -1,0 +1,63 @@
+.green {
+    color: green;
+}
+
+
+body{
+    background: #1493b3;
+    /* font-family: 'Anton', sans-serif; */
+    font-family: 'Righteous', cursive;
+}
+
+.title {
+    letter-spacing: 1.2rem;
+}
+
+.bg {
+    background: black;
+    width: 20rem;
+    height: 19rem;
+    color: white;
+}
+
+#p1, #p2 {
+    font-size: 15rem;
+    
+}
+
+.label {
+    font-size: 1.1rem;
+}
+
+button {
+    width: 5rem;
+    height: 4rem;
+    padding: 0px;
+    font-weight: bold;
+    border: 1px solid white;
+    background: #3d2482;
+    color: white;
+    font-weight: 300;
+}
+
+p{
+    font-weight: bold;
+}
+
+@media (max-width: 770px) {
+    .bg {
+        width: 16rem;
+        height: 15rem;
+        
+    }
+
+    #p1, #p2 {
+        font-size: 11rem;
+        
+    }
+
+    .title {
+        letter-spacing: 0.4rem;
+    }
+    
+}
